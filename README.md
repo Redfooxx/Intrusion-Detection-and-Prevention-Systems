@@ -110,26 +110,25 @@ The first victim’s IP address is 10.4.19.19: [53]
 ![image](https://github.com/user-attachments/assets/cd035095-0c56-4d04-9298-96a76314602f)
 
 The frame below looks a bit suspicious because it does have a clear SOURCE IP and a DESTINATION IP, as can be seen below.  
-![image](https://github.com/user-attachments/assets/cec29bdf-18a5-4cc6-9ce5-a283370dfbf0)
+![image](https://github.com/user-attachments/assets/73ecbf2b-0aff-4ebc-86be-7907850748a2)
 
 However, it’s evident in the picture below that the src_ip has two different IP addresses which should not be the case.   
-![image](https://github.com/user-attachments/assets/e02ab39f-4e53-4ee4-9cf6-ab00060caa50)
+![image](https://github.com/user-attachments/assets/567eaca0-586f-4848-a560-c6e4d3996e53)
 
 The second victim’s IP address is 192.153.57.233:[80]   
-![image](https://github.com/user-attachments/assets/70822ea0-120b-455c-83ae-d86b8a79306c)
+![image](https://github.com/user-attachments/assets/32176a71-dca5-4eba-87b0-fb55186fb1e9)
 
 The attack is being flagged as critical!  
-![image](https://github.com/user-attachments/assets/cb01c424-c250-4461-a9f0-745db0ce5dd0)
+![image](https://github.com/user-attachments/assets/0681c7ac-ecf4-4fe8-8d2d-6239781e001f)
 
 **3.	Who is the attacker?**   
 
 The attacker’s IP address is IP address: 10.4.19.136:[49805].  
-![image](https://github.com/user-attachments/assets/bfc1d18e-b542-44d0-b294-a437ad7c4233)
+![image](https://github.com/user-attachments/assets/ecdff8a8-885b-4b79-b3b6-3337bd81e5c4)
 
 a.	Is the malware family identified?  
-The malware family was identified as **IcedID**.  
-![Uploading image.png…]()
-
+The malware family was identified as **IcedID**.   
+![image](https://github.com/user-attachments/assets/a1873570-b5bd-4b8b-889b-72ccaa716342)
 
 b.	What do we know about them? Capabilities? Activity?
 
