@@ -13,3 +13,31 @@ This lab consists of four sections:
 **Section 4**: Repetition of the process to identify the presence of AZORult malware.
  
 The lab emphasizes using Suricata and Evebox for effective network threat detection and investigation.
+
+<details>
+  <summary><b>SECTION 1: Suricata and Evebox</b></summary>
+
+test
+  
+</details>
+
+<details>
+  <summary><b>SECTION 2: Pcap Analysis</b></summary>
+
+test
+  
+</details>
+
+<details>
+  <summary><b>SECTION 3: Malware: IcedID identification</b></summary>
+
+test
+  
+</details>
+
+<details>
+  <summary><b>SECTION 4: Malware AZORult Identification</b></summary>
+
+test
+  
+</details>
