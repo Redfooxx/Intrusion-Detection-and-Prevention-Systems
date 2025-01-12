@@ -142,6 +142,39 @@ Its origins can be traced back to Eastern Europe where the criminals behind iced
 <details>
   <summary><b>SECTION 4: Malware AZORult Identification</b></summary>
 
-test
+A pcap files from https://github.com/jstrosch/ps-suricata-lab, was downloaded and ran through suricata for evaluation sudo sh ./suri-ingest-pcap.sh demo-s04-01-arkeistealer-payloads-exfil.pcap. Evebox was then used to evaluate various incidents that was flagged. 
+![image](https://github.com/user-attachments/assets/7c0f00cb-2eec-48f1-8974-846088f9f93e)
+
+**1.	When was the first and last event triggered?**
+
+The first event was triggered at 2020-08-29 21:321:34.
+The last event occurred at 2020-08-29 21:33:25. 
+![image](https://github.com/user-attachments/assets/e27c6cd6-69ba-4613-b4f5-6017f8c82695)
+
+**2.	Who is the victim**
+
+The victim’s IP address is 217.8.117.77: [80]  
+![image](https://github.com/user-attachments/assets/17b2b260-64b0-4ff9-b815-80dabde5db7d)
+
+**3.	Who is the attacker?** 
+
+The attacker’s IP address is IP address: 192.168.56.101:[49284]. 
+![image](https://github.com/user-attachments/assets/c589a8a8-4839-4cb7-aff4-e2a2e7759feb)
+
+a.	Is the malware family identified?  
+The malware family was identified as **AZORult**. 
+![image](https://github.com/user-attachments/assets/9f1ad1f8-bcc3-4a12-8d70-c690117dee79)
+
+Here it’s visible to see that hackers are trying to exfiltrate a file that appears to hold passwords.  
+![image](https://github.com/user-attachments/assets/574bdd23-22ae-4d32-be45-d8a5f3eb6411)
+
+Here, project.ug is shown at the host. This has been categorized as a high-risk site, specifically flagged as associated with "Command and Control & Botnet" activities. 
+![image](https://github.com/user-attachments/assets/a9643a88-12c3-47af-bdaa-19e212a6e54d)
+
+b.	What do we know about them? Capabilities? Activity? 
+
+AZORult is capable of stealing sensitive banking information, including passwords, credit card details, and cryptocurrency. This frequently updated information-stealing malware remains a significant and active threat. 
+
+AZORult was first discovered in 2016 and was advertised on some Russian underground forums. It targets and steals sensitive data such as IDs, browsing history, cookies, passwords, and more.  It can also download additional malware such as ransomware and cryptocurrency miners. 
   
 </details>
