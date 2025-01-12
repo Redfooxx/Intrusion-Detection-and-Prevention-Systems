@@ -17,7 +17,40 @@ The lab emphasizes using Suricata and Evebox for effective network threat detect
 <details>
   <summary><b>SECTION 1: Suricata and Evebox</b></summary>
 
-test
+Section1:
+1. Install Suricata.
+   
+![image](https://github.com/user-attachments/assets/37c55d9d-83f8-4252-a74b-204e13833cdb)                     
+*Figure 1 Instructions for installing Suricata onto Ubuntu*
+
+2. Run ‘sudo suricata-update’
+
+![image](https://github.com/user-attachments/assets/90f8b530-7f37-4675-8442-019c642e5cb6)       
+*Figure 2 Suricata updated rules*
+ 
+3. Install Evebox.
+   
+![image](https://github.com/user-attachments/assets/4ff89ec2-c8a4-4099-9f3e-d1de74b9e88f)  
+*Figure 3 Evebox installation instructions*
+
+![image](https://github.com/user-attachments/assets/82b1022b-7a23-4c90-944b-770e6cefca79)    
+*Figure 4 Evebox Installation continued*
+
+4. Suricata Ingest Script was obtained from   https://gist.github.com/jstrosch/317a03ad5cd9772685eb4f2020f4611e
+
+ ![image](https://github.com/user-attachments/assets/6784c325-dc70-40e1-bd8f-b40a87b44868)  
+ *Figure 5 Suricate Ingest File*
+
+5. Run ‘sudo sh ./suri-ingest-pcap.sh yourPCAP.pcap’
+   
+ ![image](https://github.com/user-attachments/assets/52441f22-58d7-4d36-9e77-375ebd316544)   
+ *Figure 6 Malware AgentTesla detected*
+
+6. Evebox opened on browser: 127.0.01:5636/#/inbox
+
+ ![image](https://github.com/user-attachments/assets/c629c79b-f0d8-4a1e-a39d-17ea797b27d7)    
+ *Figure 7  Evebox Inbox*
+
   
 </details>
 
