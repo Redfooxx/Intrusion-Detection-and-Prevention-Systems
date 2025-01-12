@@ -57,7 +57,43 @@ Section1:
 <details>
   <summary><b>SECTION 2: Pcap Analysis</b></summary>
 
-test
+**1.	When was the first and last event triggered?**
+   
+The first event was triggered at 2023-01-05 16:51:00.
+
+The last event occurred at 2023-01-05 16:51:30.
+![image](https://github.com/user-attachments/assets/c87cdcd2-cc01-4167-a12f-1a6b0e0875b2)
+
+**2.	Who is the victim?**
+
+The victim’s information is listed below:
+a. IP address: 204.11.58.28: [587]
+![image](https://github.com/user-attachments/assets/e38a6283-0370-41af-af05-de3a97e28861)
+
+b. Hostname: DESKTOP-WIN11PC
+![image](https://github.com/user-attachments/assets/f64a0c6f-db42-4c20-baf5-3dc1268abb0e)
+
+	
+
+4.	Who is the attacker? 
+The attacker’s IP address is IP address: 192.168.1.27: [51958].
+ 
+
+
+
+
+
+
+
+a.	Is the malware family identified?
+The malware family was identified as AgentTesla.
+
+ 
+
+
+b.	What do we know about them? Capabilities? Activity?
+Agent Tesla operates as a Remote Access Trojan (RAT) and information stealer developed using the .NET framework. It is primarily spread through phishing emails and once is gains entry, it uses various techniques to hide its presence. It can log keystrokes, capture clipboard content, and scan the disk for sensitive data.
+
   
 </details>
 
