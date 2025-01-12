@@ -104,40 +104,31 @@ The first event was triggered at 2023-04-19 09:32:20.
 The last event occurred at 2023-01-05 15:17:46.    
 ![image](https://github.com/user-attachments/assets/2360e558-b8c0-4cee-81f4-9f663b4ea935)
 
+**2.	Who is the victim?** 
 
- 
+The first victim’s IP address is 10.4.19.19: [53]  
+![image](https://github.com/user-attachments/assets/cd035095-0c56-4d04-9298-96a76314602f)
 
+The frame below looks a bit suspicious because it does have a clear SOURCE IP and a DESTINATION IP, as can be seen below.  
+![image](https://github.com/user-attachments/assets/cec29bdf-18a5-4cc6-9ce5-a283370dfbf0)
 
+However, it’s evident in the picture below that the src_ip has two different IP addresses which should not be the case.   
+![image](https://github.com/user-attachments/assets/e02ab39f-4e53-4ee4-9cf6-ab00060caa50)
 
+The second victim’s IP address is 192.153.57.233:[80]   
+![image](https://github.com/user-attachments/assets/70822ea0-120b-455c-83ae-d86b8a79306c)
 
+The attack is being flagged as critical!  
+![image](https://github.com/user-attachments/assets/cb01c424-c250-4461-a9f0-745db0ce5dd0)
 
-**2.	Who is the victim?**
+**3.	Who is the attacker?**   
 
-The first victim’s IP address is 10.4.19.19: [53]
- 
+The attacker’s IP address is IP address: 10.4.19.136:[49805].  
+![image](https://github.com/user-attachments/assets/bfc1d18e-b542-44d0-b294-a437ad7c4233)
 
-The frame below looks a bit suspicious because it does have a clear SOURCE IP and a DESTINATION IP, as can be seen below.
- 
-
-However, it’s evident in the picture below that the src_ip has two different IP addresses which should not be the case.
- 
-
-
-The second victim’s IP address is 192.153.57.233:[80]
- 
-The attack is being flagged as critical!
- 
-
-
-**3.	Who is the attacker?** 
-
- The attacker’s IP address is IP address: 10.4.19.136:[49805].
- 
-a.	Is the malware family identified?
-
-The malware family was identified as IcedID.
-
- 
+a.	Is the malware family identified?  
+The malware family was identified as **IcedID**.  
+![Uploading image.png…]()
 
 
 b.	What do we know about them? Capabilities? Activity?
