@@ -91,13 +91,61 @@ b. What do we know about them? Capabilities? Activity?
 
 Agent Tesla operates as a Remote Access Trojan (RAT) and information stealer developed using the .NET framework. It is primarily spread through phishing emails and once is gains entry, it uses various techniques to hide its presence. It can log keystrokes, capture clipboard content, and scan the disk for sensitive data.
 
-  
 </details>
 
 <details>
-  <summary><b>SECTION 3: Malware: IcedID identification</b></summary>
+  <summary><b>SECTION 3: Malware: IcedID identification</b></summary>  
+ 
+ **1.	When was the first and last event triggered?**  
 
-test
+The first event was triggered at 2023-04-19 09:32:20.   
+![image](https://github.com/user-attachments/assets/ce4e6515-d9e0-4a9a-bb54-60df367de4c0)  
+  
+The last event occurred at 2023-01-05 15:17:46.    
+![image](https://github.com/user-attachments/assets/2360e558-b8c0-4cee-81f4-9f663b4ea935)
+
+
+ 
+
+
+
+
+
+**2.	Who is the victim?**
+
+The first victim’s IP address is 10.4.19.19: [53]
+ 
+
+The frame below looks a bit suspicious because it does have a clear SOURCE IP and a DESTINATION IP, as can be seen below.
+ 
+
+However, it’s evident in the picture below that the src_ip has two different IP addresses which should not be the case.
+ 
+
+
+The second victim’s IP address is 192.153.57.233:[80]
+ 
+The attack is being flagged as critical!
+ 
+
+
+**3.	Who is the attacker?** 
+
+ The attacker’s IP address is IP address: 10.4.19.136:[49805].
+ 
+a.	Is the malware family identified?
+
+The malware family was identified as IcedID.
+
+ 
+
+
+b.	What do we know about them? Capabilities? Activity?
+
+IcedID is a modular banking malware designed to steal financial information, and it has been observed in active use since at least 2017. IcedID attacks primarily target banks in North America, along with a few specific banking organizations in the United Kingdom.
+
+Its origins can be traced back to Eastern Europe where the criminals behind icedID are known to have worked with the creators of Emotet and TrickBot as well. IcedID also functions as a loader, capable of delivering other viruses or downloading additional modules.
+
   
 </details>
 
